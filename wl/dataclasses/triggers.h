@@ -11,6 +11,7 @@ namespace wl {
  * @struct Trigger
  * @headerfile triggers.h "wl/dataclasses/triggers.h"
  * @brief Represents a collection of system triggers.
+ * @see registers_trigger
  */
 struct Trigger
 {
@@ -50,6 +51,7 @@ struct Trigger
  * @class Triggers
  * @headerfile triggers.h "wl/dataclasses/triggers.h"
  * @brief Provides an interface for querying system triggers.
+ * @see registers_trigger
  */
 class Triggers
 {
